@@ -1,0 +1,54 @@
+#primeiro-capitulo, h1{
+    background-color: #000000;
+    color: #ff0000;
+}
+
+h1 {
+    color: aqua;
+}
+
+.paragrafo {
+    background-color: #ddd;
+    margin: 30px;
+
+    padding-top: 20px;
+    padding-right: 45px;
+    padding-bottom:2px solid #000;
+    padding-left: 45px;
+    padding: 20px 45px 20px 45px; /*top right bottom left */;
+    padding: 20px 45px; /* top/bottom e left/right */
+    padding: 25px;
+
+    border:2px solid #000;
+    border-width: 2px;
+    border-style: solid; /*solid__ dashed ---- dotted ....*/
+    border-color: #000 #aaf;
+    border-top-color: #00f;
+}
+
+    a {
+        color:#000;
+
+    }
+a:active{
+    color:#ff0000;
+}
+
+a:hover{
+background-color: #0f0; 
+}
+
+.pagina {
+
+    width: 300px;
+    height: 500px;
+    background-color: #dfe3e4;
+    display: inline-block;
+
+    /*
+    display: block - exibir em único conteúdo por linha
+    display: inline - exibir conteúdo como se fosse uma unica linha
+    display inline-block - exibir o conteudo como se fossem blocos em uma unica linha 
+    display:none - não exibir o conteudo 
+    */
+}
